@@ -1,24 +1,24 @@
 {
 	"name": "flarum-lang/telugu",
+	"description": "Telugu Language Pack for Flarum",
 	"type": "flarum-extension",
-	"description": "Telugu language pack for Flarum.",
-	"homepage": "https://github.com/flarum-lang/telugu/",
 	"keywords": [
-		"locale",
-		"flarum",
-		"telugu-locale"
+		"flarum-locale"
 	],
+	"homepage": "https://github.com/flarum-lang/telugu",
 	"license": "MIT",
 	"support": {
 		"issues": "https://github.com/flarum-lang/telugu/issues",
-		"source": "https://github.com/flarum-lang/telugu/"
+		"forum": "https://discuss.flarum.org/d/40215",
+		"source": "https://github.com/flarum-lang/telugu"
 	},
 	"require": {
 		"flarum/core": "^1.4"
 	},
-	"minimum-stability": "dev",
-	"prefer-stable": true,
 	"extra": {
+		"branch-alias": {
+			"dev-master": "1.x-dev"
+		},
 		"flarum-extension": {
 			"title": "Telugu",
 			"category": "language",
@@ -30,13 +30,7 @@
 		},
 		"flarum-locale": {
 			"code": "te",
-			"title": "Telugu"
-		},
-		"flagrow": {
-			"discuss": ""
-		},
-		"branch-alias": {
-			"dev-master": "1.x-dev"
+			"title": "తెలుగు"
 		}
 	}
 }
